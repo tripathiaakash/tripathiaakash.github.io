@@ -4,4 +4,6 @@
 
 layout: home
 ---
-'Hello world'
+Welcome to the world of AI
+
+I work on building ML and AI powered products to solve user problems
