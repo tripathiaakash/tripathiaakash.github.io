@@ -8,6 +8,6 @@ I am Aakash Tripathi, a Data Scientist and a Machine Learning Engineer. I believ
 
 I have graduted from Indian Institute of Technology (IIT-BHU) in Chemical Engineering.
 
-Check out my cool projects on [Huggingface](https://huggingface.co/aakasht).
+Check out my cool projects on [Huggingface](https://huggingface.co/aakasht){:target="_blank"}.
 
-If you are more interested, look at my [Medium](https://medium.com/@aakashtripathi0612) blogposts.
+If you are more interested, look at my [Medium](https://medium.com/@aakashtripathi0612){:target="_blank"} blogposts.
