@@ -30,6 +30,17 @@ And, just like any statistical test, t-test uses a test statistic to make a conc
 
 ### ANOVA - Analysis of variance
 
-ANOVA is a test that helps us make a conclusion if three or more groups of populations have statistically different parameter. For the examples in the Motivation section, we can see that ANOVA can help us in the third example.
+ANOVA is a test that helps us make a conclusion if two or more groups of populations have statistically different parameter. For the examples in the Motivation section, we can see that ANOVA can help us in the third example.
 
 Test statistic for ANOVA is F value.
+
+In both tests - t test and ANOVA, p-value and significance level (alpha) helps in concluding if we can safely reject the null hypothesis i.e. if p-value < alpha, we can reject the null hypothesis which says that there is no statistically significant difference between/amongst the groups and conclude that there is a difference.
+
+In case of ANOVA, if the test is significant and we reject the null hypothesis, we still don't know which group(s) was the cause for the difference. In order to determine that, we can run pair-wise t tests for the all pairs of groups and use the p-value to find the difference causing group(s). However, if there are large number of groups, the test is likely to give significant results. For instance,
+
+1. test with 5 groups -> probability of at least 1 significant result = 0.7
+2. test with 20 groups -> probability of at least 1 significant result = 1.0
+
+Hence, we can use a correction mechanism. One such mechanism is [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction){:target="_blank"}, which decreases the level of significance by dividing the initial alpha by the number of hypotheses being tested.
+
+
